@@ -1,0 +1,37 @@
+body{
+    border: 2px solid black;
+}
+/* universal   selector*/
+*{
+    border: 2px solid red;
+}
+/* element selector*/
+h1{
+    color: red;
+    /* thickness px  */
+    border: 2px solid black;
+    border: 2px dashed blue;
+    border: thick double yellow;
+    background-color:greenyellow;
+}
+h2{
+    color: blue;
+    border: 3px solid black;
+    background-color: yellow;
+}
+/* class selector */
+.par{
+    color: aqua;
+}
+
+/* attribute selector */
+input[type="password"]
+{
+    color: orange;
+}
+
+/* id selector */
+#side{
+    color: blueviolet;
+    border: 2px solid black;
+}
