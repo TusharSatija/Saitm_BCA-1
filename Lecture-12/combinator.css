@@ -1,0 +1,12 @@
+/* Descendant selector  */
+div p{
+    color: blue;
+}
+/* adjacent combinator */
+p + h1{
+    color: red;
+}
+/* general sibling  */
+p ~ h1{
+    color: orange;
+}
