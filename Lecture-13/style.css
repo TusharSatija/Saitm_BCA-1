@@ -7,7 +7,6 @@ ul li{
 ul>li{
     background: yellow;
 }
-
 /* adjacent selector + */
 ul+li{
     color: orange;
