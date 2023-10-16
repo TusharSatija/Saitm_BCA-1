@@ -1,0 +1,18 @@
+/* decendent selector  space  */
+ul li{
+    color: red;
+}
+
+/* child selector > */
+ul>li{
+    background: yellow;
+}
+
+/* adjacent selector + */
+ul+li{
+    color: orange;
+}
+/* general sibling ~ */
+ul~li{
+    border: 2px solid black;
+}
