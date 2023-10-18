@@ -1,0 +1,38 @@
+a:visited{
+    color: green;
+}
+a:active{
+    color: red;
+}
+input:focus{
+    color: aqua;
+    background-color: chartreuse;
+}
+ul>li:last-child{
+    color:magenta;
+}
+ul>li:first-child{
+    color: indigo;
+}
+/* n=0,1,2......*/
+/* even places  : 2n*/
+/* odd places  : 2n+1*/
+ul>li:nth-of-type(2n+4)
+{
+    color: crimson;
+}
+
+/* Pseudo Element :: */
+article::first-letter{
+    font-size: 100px;
+}
+article::first-line{
+    color: red;
+}
+article::before{
+    content: "\2665";
+}
+article::after{
+    content: '\2665';
+}
+ 

@@ -1,0 +1,8 @@
+ul{
+    /*  Inherited from parent */
+    color: yellow;
+    background-color:blue;
+
+    /* not get  inherited from parent  */
+    border: 3px dotted orange;
+}
