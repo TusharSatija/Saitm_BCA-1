@@ -1,0 +1,11 @@
+p{
+    height: 170px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 4px auto;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x: scroll; */
+    overflow-y: scroll;
+
+}
