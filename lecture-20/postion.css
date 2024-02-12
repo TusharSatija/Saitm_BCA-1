@@ -1,0 +1,14 @@
+body{
+    height: 200vh;
+} 
+
+div{
+    height: 100px;
+    border: 3px solid yellow;
+    width: 100px;
+    display: inline-block;
+}
+#box3{
+    position: fixed;
+    
+}
