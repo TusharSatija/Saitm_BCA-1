@@ -1,0 +1,31 @@
+section{
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    display: inline-block;
+}
+#box1{
+    background-color: lightgreen;
+}
+#box2{
+    position: absolute;
+    top: 102px;
+    background-color: yellow;
+}
+#box3{
+    position: absolute;
+    top: 202px;
+    left: 12px;
+    background-color: orange;
+}
+#box4{
+    position: absolute;
+    top: 302px;
+    background-color: blue;
+}

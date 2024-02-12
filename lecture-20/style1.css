@@ -1,0 +1,29 @@
+section{
+    height: 400px;
+    width: 900px;
+    border: 2px solid black;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    border: 3px solid red;
+    margin: 30px;
+    display: inline-block;
+}
+
+#first{
+    background: yellow;
+}
+#second{
+    background: lightgreen;
+}
+#third{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    background-color: blue;
+}
+#four{
+    background-color: red;
+}
