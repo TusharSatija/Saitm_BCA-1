@@ -1,0 +1,15 @@
+article{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+
+h1{
+    border: 2px solid blue;
+    float: right;
+    margin-right:40px ;
+}

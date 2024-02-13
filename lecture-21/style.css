@@ -1,0 +1,15 @@
+section{
+    height: 150px;
+    width: 600px;
+    border:  2px solid black;
+    white-space: nowrap;
+    overflow-x: scroll;
+    /* overflow: scroll; */
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 3px solid blue;
+    display: inline-block;
+}

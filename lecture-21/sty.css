@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+article{
+    height: 100px;
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
