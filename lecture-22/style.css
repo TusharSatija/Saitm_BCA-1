@@ -1,0 +1,33 @@
+section{
+    border: 2px solid black;
+    height: 99vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+    justify-content: end;
+    justify-content:space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: center;
+    
+    align-items: center;
+    align-items: end;
+    align-items: flex-start;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid greenyellow;
+}
+
+#box-4{
+    flex-grow: 4;
+}
+#box-6{
+    flex-shrink: 3;
+}
