@@ -1,0 +1,14 @@
+section{
+    height: 400px;
+    width: 80vw;
+    border: 2px solid black;
+    display: grid;
+    /* grid-template-columns: repeat(no of times, fraction); */
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid yellowgreen;
+}

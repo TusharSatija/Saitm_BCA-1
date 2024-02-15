@@ -1,0 +1,17 @@
+section{
+    height: 400px;
+    width: 60vw; /* view width*/
+    width: 1000px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 10px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 3px solid lightblue;
+}

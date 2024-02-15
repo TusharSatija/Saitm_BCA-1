@@ -1,0 +1,14 @@
+nav{
+    border: 2px solid black;
+} 
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+@media  screen and (max-width:500px) {
+    ul{
+        flex-direction: column;
+    }
+}
