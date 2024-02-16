@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-top: 5px dotted black ;
+    border-left: 5px dotted black;
+    border-bottom: 5px dotted black;
+    border-radius: 50%;
+    margin: 120px auto;
+    animation-name: load;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 0.5s;
+    animation-delay: 0.1ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load{
+    100%{
+        transform: rotate(360deg);
+    }
+}

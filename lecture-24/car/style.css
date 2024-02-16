@@ -1,0 +1,46 @@
+#car{
+    height: 300px;
+    width: 900px;
+    animation-name: upside;
+    animation-duration: 2s;
+    animation-delay: 0.3ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wheel1{
+    position: absolute;
+    top: 180px;
+    left: 110px;
+    height: 120px;
+    width: 120px;
+    animation-name: rotat;
+    animation-duration: 2ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2ms;
+    animation-iteration-count: infinite;
+}
+#wheel2{
+    position: absolute;
+    top: 180px;
+    left: 630px;
+    height: 120px;
+    width: 120px;
+
+    animation-name: rotat;
+    animation-duration: 2ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotat{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes upside{
+    100%{
+        transform: translateY(12px);
+    }
+}

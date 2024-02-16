@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 50%;
+    margin: 30px auto;
+
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(0, 0, 0.63, 0.94);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bounce{
+    100%{
+        transform: translateY(500px);
+    }
+}
