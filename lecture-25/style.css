@@ -1,5 +1,42 @@
 body{
     background-color: black;
+} 
+nav input[type="text"]{
+    margin-left: 600px;
+    height: 4rem;
+    background-color: rgb(18, 17, 17);
+    width: 20rem;
+    color:white;
+    font-size: 3rem;
+    border: 3px solid white;
+}
+nav .rs{
+    margin-left: 10px;
+     border: 3px solid red;
+}
+nav .rs1{
+    margin-left: 380px;
+     border: 3px solid red;
+}
+nav{
+    display:  flex;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 5rem;
+    width: 99vw;
+    border: 2px solid white;
+}
+nav img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+nav h1{
+    margin-left: 30px;
+    font-size: 40px;
+    width: 150px;
+    /* border: 2px solid yellow; */
 }
 section{
     border: 2px solid white;
