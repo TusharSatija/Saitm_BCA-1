@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+section{
+    border: 2px solid white;
+    height: 450px;
+    width: 75vw;
+}
+
+section img{
+    margin: 20px;
+    height: 430px;
+    width: 430px;
+}
+section img:hover{
+    height:440px;
+    width: 440px;
+}
+aside{
+    border: 2px solid red;
+    height: 600px;
+    width: 75vw;
+}
+aside article{
+    margin-left: 140px;
+    padding-top: 40px;
+    height: 250px;
+    width: 480px;
+    display: inline-block;
+    border: 2px solid white;
+}
+article img{
+    height: 200px;
+    width: 200px;
+}
+article p{
+    color: azure;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    border: 3px solid yellow;
+}
+div{
+    width: 75vw;
+    height: 155px;
+    overflow-y: hidden;
+    border: 3px solid red;
+    overflow: scroll;
+    white-space: nowrap;
+}
+div img{
+    height: 150px;
+    width: 150px;
+}
+
+#circle img{
+    width: 75vw;
+    height: 171px;
+    overflow-y: hidden; 
+    overflow: scroll;
+    white-space: nowrap;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    width: 75vw;
+    /* border:  2px solid yellow; */
+}
+#circle img{
+    border-radius: 50%;
+    height: 170px;
+    width: 150px;
+}
