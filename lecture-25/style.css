@@ -24,8 +24,8 @@ nav{
     /* justify-content: space-around; */
     align-items: center;
     height: 5rem;
-    width: 99vw;
-    border: 2px solid white;
+    width: 97vw;
+    /* border: 2px solid white; */
 }
 nav img{
     height: 70px;
@@ -41,34 +41,34 @@ nav h1{
 section{
     border: 2px solid white;
     height: 450px;
-    width: 75vw;
+    width: 70vw;
 }
 
 section img{
     margin: 20px;
-    height: 430px;
-    width: 430px;
+    height: 400px;
+    width: 400px;
 }
 section img:hover{
-    height:440px;
-    width: 440px;
+    height:410px;
+    width: 410px;
 }
 aside{
     border: 2px solid red;
     height: 600px;
-    width: 75vw;
+    width: 70vw;
 }
 aside article{
     margin-left: 140px;
     padding-top: 40px;
     height: 250px;
-    width: 480px;
+    width: 450px;
     display: inline-block;
     border: 2px solid white;
 }
 article img{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
 }
 article p{
     color: azure;
@@ -78,21 +78,21 @@ article p{
     border: 3px solid yellow;
 }
 div{
-    width: 75vw;
-    height: 155px;
+    width: 70vw;
+    height: 190px;
     overflow-y: hidden;
     border: 3px solid red;
     overflow: scroll;
     white-space: nowrap;
 }
 div img{
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
 }
 
 #circle img{
-    width: 75vw;
-    height: 171px;
+    width: 70vw;
+    height: 180px;
     overflow-y: hidden; 
     overflow: scroll;
     white-space: nowrap;
@@ -102,11 +102,37 @@ h1{
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
     color: azure;
-    width: 75vw;
+    width: 70vw;
     /* border:  2px solid yellow; */
 }
 #circle img{
     border-radius: 50%;
-    height: 170px;
+    height: 190px;
     width: 150px;
+}
+
+.card{
+    height: 250px;
+    width: 500px;
+    overflow: visible;
+    border: 2px solid white;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+ 
+.card h1{
+    height: 80px;
+    width: 100px;
+    font-size: 35px;
+}
+
+main{
+    position:absolute;
+    top: 90px;
+    right: 14px; 
+    width: 500px;
+    border: 3px solid orangered;
 }
